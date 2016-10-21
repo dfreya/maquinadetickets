@@ -33,7 +33,7 @@ public class MaquinaTickets
     /**
      * Return the price of a ticket.
      */
-    public int darPrecio()
+    public int optenerPrecio()
     {
         return precio;
     }
@@ -42,7 +42,7 @@ public class MaquinaTickets
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int darBalance()
+    public int optenerBalance()
     {
         return balance;
     }
@@ -75,4 +75,12 @@ public class MaquinaTickets
         // Clear the balance.
         balance = 0;
     }
+    
+    /**
+     * 
+     */
+    public int obtenerTotal()
+	{
+		return total;
+	}
 }
