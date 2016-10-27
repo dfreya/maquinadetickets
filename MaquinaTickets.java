@@ -33,6 +33,8 @@ public class MaquinaTickets
     public MaquinaTickets(int coste)
     {
        precio = coste; 
+       balance = 0;
+       total = 0;
     }
     
     /**
@@ -98,5 +100,6 @@ public class MaquinaTickets
 	{
 	    System.out.println("El precio de Ticket es " + precio + " €");
 	}
+	  
 }
 
