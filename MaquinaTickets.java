@@ -50,7 +50,7 @@ public class MaquinaTickets
     /**
      * Receive an amount of money from a customer.
      */
-    public void imprimirDinero(int cantidad)
+    public void introducirDinero(int cantidad)
     {
         balance = balance + cantidad;
     }
@@ -83,4 +83,11 @@ public class MaquinaTickets
 	{
 		return total;
 	}
+	
+	public void aviso()
+	{
+	    System.out.println("Porfavor, inserte la cantidad correcta de dinero");
+	}
+
 }
+
